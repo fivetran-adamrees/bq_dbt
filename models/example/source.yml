@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: sampleData
+    database: dbt-technical-training  
+    schema: adamrees_dbt  
+    tables:
+      - name: date_data
+  - name: datafeed
+    database: MKTG_DB
+    schema: REFINED
+    tables:
+      - name: VW_INDEPENDENT_DEALER_DATAFEED
+  - name: receiving
+    database: NAM_DB
+    schema: REFINED
+    tables:
+      - name: VW_RECEIVING_CUSTOM
+
+
+

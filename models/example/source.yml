@@ -6,7 +6,6 @@ sources:
     schema: adamrees_dbt  
     tables:
       - name: date_data
-      - name: sql_server_rds_accessories
   - name: datafeed
     database: MKTG_DB
     schema: REFINED
@@ -17,6 +16,9 @@ sources:
     schema: REFINED
     tables:
       - name: VW_RECEIVING_CUSTOM
+  - name: dbt_sql_server_dbo
+    tables:
+      - name: messages
 
 
 

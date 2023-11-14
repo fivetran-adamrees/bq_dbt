@@ -6,6 +6,7 @@ sources:
     schema: adamrees_dbt  
     tables:
       - name: date_data
+      - name: sql_server_rds_accessories
   - name: datafeed
     database: MKTG_DB
     schema: REFINED
